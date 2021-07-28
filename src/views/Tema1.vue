@@ -65,23 +65,32 @@
     p.mb-5 A continuación, se amplía la información sobre este proceso.
     .row.bg-color5.px-5
       .col-12
-        figure(data-aos="fade-right").mb-5
-          img(src='@/assets/curso/img9.png', style="max-width: 1100px;").m-auto
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/img9.png', alt='Texto que describa la imagen')
+          .tarjeta.color-acento-botones.p-3(x="20.2%" y="22.5%")
+            .h5.mb-2 Fosa nasal
+            p El aire pasa por las fosas nasales, se calienta y humidifica. Las fosas nasales y las vías respiratorias están protegidos por pelos diminutos llamados "cilios", que se encargan de filtrar el polvo y otras partículas que entran en la nariz junto con el aire que respiramos. Se unen en la faringe, o garganta, en la parte posterior de la nariz y la boca.
+          .tarjeta.color-acento-botones.p-3(x="76.9%" y="18.5%")
+            .h5.mb-2 Faringe
+            p En la parte inferior de la faringe el canal se divide en dos conductos: uno para los alimentos, el esófago y otro para el aire, la laringe que se cubre con una pequeña capa de tejido denominada "epiglotis” que, cuando tragamos, impide que los alimentos o los líquidos vayan a los pulmones.
+          .tarjeta.color-acento-botones.p-3(x="76.9%" y="22.6%")
+            .h5.mb-2 Laringe
+            p La laringe es la parte superior del conducto exclusivo para el aire. Este conducto corto contiene un par de cuerdas vocales, que vibran para generar sonidos.
+          .tarjeta.color-acento-botones.p-3(x="76.9%" y="30.8%")
+            .h5.mb-2 Traquea
+            p La tráquea es la continuación de la laringe. Las paredes de la tráquea están fortalecidas con anillos rígidos de cartílago que la mantienen abierta. Además, está revestida de cilios, que expulsan los líquidos y las partículas extrañas de las vías aéreas para que no lleguen a los pulmones.
+          .tarjeta.color-acento-botones.p-3(x="77.8%" y="46.9%")
+            .h5.mb-2 Bronquios
+            p En el extremo inferior, la tráquea se divide en 2 conductos: izquierdo y derecho, llamados "bronquios", que conectan con los pulmones.
+          .tarjeta.color-acento-botones.p-3(x="77.8%" y="56.2%")
+            .h5.mb-2 Bronquiolos
+            p Dentro de los pulmones, los bronquios se ramifican y forman bronquios más pequeños o conductos incluso más pequeños llamados "bronquiolos".
+          .tarjeta.color-acento-botones.p-3(x="20.2%" y="80.2%")
+            .h5.mb-2 Aveolos
+            p Los bronquiolos terminan en pequeños sacos de aire llamados "alveolos", donde ocurre el intercambio de oxígeno y dióxido de carbono. Cada persona tiene cientos de millones de alveolos en los pulmones.
     .row.justify-content-center.mb-5
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 El aire pasa por las fosas nasales, se calienta y humidifica. Las fosas nasales y las vías respiratorias están protegidos por pelos diminutos llamados "cilios", que se encargan de filtrar el polvo y otras partículas que entran en la nariz junto con el aire que respiramos. Se unen en la faringe, o garganta, en la parte posterior de la nariz y la boca.
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 En la parte inferior de la faringe el canal se divide en dos conductos: uno para los alimentos, el esófago y otro para el aire, la laringe que se cubre con una pequeña capa de tejido denominada "epiglotis” que, cuando tragamos, impide que los alimentos o los líquidos vayan a los pulmones.
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 La laringe es la parte superior del conducto exclusivo para el aire. Este conducto corto contiene un par de cuerdas vocales, que vibran para generar sonidos.
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 La tráquea es la continuación de la laringe. Las paredes de la tráquea están fortalecidas con anillos rígidos de cartílago que la mantienen abierta. Además, está revestida de cilios, que expulsan los líquidos y las partículas extrañas de las vías aéreas para que no lleguen a los pulmones.
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 En el extremo inferior, la tráquea se divide en 2 conductos: izquierdo y derecho, llamados "bronquios", que conectan con los pulmones.
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 Dentro de los pulmones, los bronquios se ramifican y forman bronquios más pequeños o conductos incluso más pequeños llamados "bronquiolos".
-      .col-10.p-4.mb-5.bg-color6
-        p.text-center.mb-0 Los bronquiolos terminan en pequeños sacos de aire llamados "alveolos", donde ocurre el intercambio de oxígeno y dióxido de carbono. Cada persona tiene cientos de millones de alveolos en los pulmones.
       .col-6
         .cajon.color-primario.p-4
           p.mb-0 La red de alvéolos, bronquiolos y bronquios recibe el nombre de “árbol bronquial”.

@@ -19,7 +19,7 @@
                 .col.mb-3.mb-sm-0
                   h3.mb-0 Aplicación de primeros auxilios en caso de un trauma. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo2.pdf')" target="_blank")
                     span(style="color: #000000 !important") Descargar
                     i.fas.fa-file-download(style="color: #000000 !important")
       
