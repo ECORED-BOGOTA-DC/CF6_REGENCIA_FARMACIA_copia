@@ -20,7 +20,7 @@
           img(src='@/assets/curso/img7.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              p #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación
+              p #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación.
     p.mb-5 Para la revisión de los conceptos generales de la anatomía y la fisiología del cuerpo, se revisarán las diferentes estructuras, desde las más sencillas hasta las más complejas, como lo presenta la siguiente imagen.
     figure(data-aos="fade-right")
       img(src='@/assets/curso/img8.svg', style="max-width: 1000px;").m-auto
@@ -48,6 +48,24 @@
       img(src='@/assets/curso/img12.svg', style="max-width: 800px;").m-auto
     p Está constituido por un complejo sistema de conductos y vasos sanguíneos, por los cuales circula la sangre impulsada por una bomba, el corazón; y por el sistema linfático, formado por una red de vasos y tejido linfático distribuidos por todo el cuerpo.
     p.mb-5 El aparato cardiocirculatorio permite mantener la homeostasis y llevar a cabo las siguientes funciones:
+    .row.justify-content-center
+      .col-8
+        .row.align-items-center.mb-3
+          .col-auto.d-inline
+            img(src='@/assets/curso/img20.svg', style="max-width: 80px;").m-auto
+          .col
+            p.mb-0 Transportar a todas las células del organismo las sustancias que necesitan para su correcto funcionamiento: nutrientes, oxígeno y sustancias reguladoras; al mismo tiempo recoger los productos resultantes del metabolismo para llevarlos a los lugares de la transformación, utilización y desecho.
+        .row.align-items-center.mb-3
+          .col-auto.d-inline
+            img(src='@/assets/curso/img21.svg', style="max-width: 80px;").m-auto
+          .col
+            p.mb-0 Transportar las células encargadas de los mecanismos de defensa allí donde sean necesarias.
+        .row.align-items-center.mb-5
+          .col-auto.d-inline
+            img(src='@/assets/curso/img22.svg', style="max-width: 80px;").m-auto
+          .col
+            p.mb-0 Distribuir las hormonas que se utilizan en los procesos de regulación metabólica.
+    p.mb-5 Por otra parte, y paralelo al sistema cardiovascular, se encuentra el sistema linfático que realiza funciones inmunológicas al producir y procesar los linfositos sanguineos, y se encarga del transporte de las grasas, como lo muestra  la siguiente figura.
     .row.bg-color3.mx-0
       .col-12
         figure(data-aos="fade-left").mb-5
@@ -94,7 +112,6 @@
       .col-6
         .cajon.color-primario.p-4
           p.mb-0 La red de alvéolos, bronquiolos y bronquios recibe el nombre de “árbol bronquial”.
-    p La cavidad torácica, o tórax, es el espacio que aloja al árbol bronquial, los pulmones, el corazón y otras estructuras. La parte superior y los costados del tórax están formados por las costillas y los músculos unidos a ellas, y la parte inferior está formada por un músculo de gran tamaño denominado “diafragma”. Las paredes del tórax forman una protección alrededor de los pulmones y otros órganos presentes en la cavidad torácica.
     separador.mb-5
     #t_1_3
     .titulo-segundo
@@ -124,14 +141,13 @@
           img(src='@/assets/curso/img22.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Motora]: provoca respuestas de músculos o glándulas, estimulando los órganos y vísceras para que actúen o se inhiban.
-    .row.align-items-center
-      .col-lg-6
+    .row.align-items-center.mb-5
+      .col-lg-6.mb-4.mb-lg-0
         p El sistema nervioso es el más complejo y altamente organizado del cuerpo humano; recibe información de los órganos sensoriales (la piel, los ojos, la lengua, el oído, etc.) mediante nervios, transmite la información a través de la médula espinal y la procesa en el encéfalo. El sistema nervioso dirige las reacciones del cuerpo hacia el mundo, y controla también la mayoría de las funciones internas, desde el movimiento muscular y la dilatación de los vasos sanguíneos hasta el aprendizaje de los datos anatómicos y fisiológicos.
         p El cerebro funciona como una computadora que controla todas las funciones del cuerpo humano. El resto del sistema nervioso viene a ser una red o entramado que envía mensajes en ambos sentidos entre el cerebro y distintas partes del cuerpo. Lo hace a través de la médula espinal, que desciende por la espalda desde el cerebro. Contiene nervios en su interior, unos filamentos que se ramifican hacia los demás órganos y partes del cuerpo. Cuando llega un mensaje al cerebro procedente de cualquier parte del cuerpo, este envía al cuerpo un mensaje de respuesta sobre cómo reaccionar.
       .col-lg-6
-        figure.mb-4.mb-lg-0(data-aos="fade-left")
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img23.svg', style="max-width: 350px;").m-auto
-    p.mb-5 La cavidad torácica, o tórax, es el espacio que aloja al árbol bronquial, los pulmones, el corazón y otras estructuras. La parte superior y los costados del tórax están formados por las costillas y los músculos unidos a ellas, y la parte inferior está formada por un músculo de gran tamaño denominado “diafragma”. Las paredes del tórax forman una protección alrededor de los pulmones y otros órganos presentes en la cavidad torácica.
     .row.bg-color7
       .col-12
         figure.mb-4.mb-lg-0(data-aos="fade-right")
@@ -211,8 +227,7 @@
             .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
               .contenedor3c.p-4
                 p La salud mental es un componente integral y esencial de la salud. Al respecto, la OMS (1948) dice:
-                i.fas.fa-quote-left.d-flex.justify-content-center.mb-4(style="color: #00BCD4; font-size: 40px")
-                p La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades
+                p “La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades”.
                 p.d-flex.justify-content-end #[b OMS (1948)]
     p.mb-5 La salud mental individual está determinada por múltiples factores sociales, psicológicos y biológicos y se asocia por ejemplo, a:
     .row.align-items-center.mb-5
@@ -243,7 +258,7 @@
         .cajon.color-primario.p-4
           p.mb-0 #[b Para tener en cuenta]: existen factores psicológicos específicos de la personalidad que hacen que una persona sea más vulnerable a los problemas de la vida diaria.
     p.mb-5 Es importante diferenciar:
-    LineaTiempoD.color-primario
+    LineaTiempoD.color-primario.mb-5
       .row(numero="1" titulo="Enfermedad mental").align-items-center
         .col-md-4.mb-4.mb-md-0
           figure
@@ -258,6 +273,9 @@
         .col-md-6
           p Es el síndrome caracterizado por una alteración clínicamente significativa del estado cognitivo, la regulación emocional o el comportamiento del individuo que refleja una disfunción de los procesos psicológicos, biológicos o del desarrollo que subyacen en su función mental.
           p Generan en el individuo dependencias y discapacidades sociales que, de no ser tratadas por profesionales o no tener adherencia a los tratamientos farmacológicos, pueden llegar a alterar la armonía y bienestar de la comunidad en la cual se desarrollan.
+    .h3 ¿Qué es una crisis en salud mental?
+    p De acuerdo con lo estudiado anteriormente, se puede concluir que una crisis en salud mental es:
+    p.mb-0 Un periodo crucial o decisivo en la vida de una persona, un punto de viraje que tiene consecuencias físicas y emocionales De manera específica es un periodo limitado de desequilibrio psicológico precipitado por un cambio repentino y significativo en la situación vital de la persona. Este cambio origina necesidad de ajustes internos y el uso de mecanismos de adaptación externa que rebasan temporalmente la capacidad del individuo (Cohen y Arhean, 1989).
   
 </template>
 
@@ -278,7 +296,7 @@ export default {
       {
         titulo: 'Tejido muscular',
         texto:
-          'Células con función contráctil, llamadas también fibras musculares, las cuales disponen en su citoplasma las proteínas contráctiles, <b>miosina</b> y <b>actina</b>. Estas proteínas permiten crear movilidad en sus estructuras anatómicas grandes y pequeñas (flexionar una pierna o contraer un vaso sanguíneo). Estas células contráctiles se pueden clasificar en tres tipos: <b>tejido muscular estriado (también llamado esquelético)</b>, que componen todos y cada uno de los músculos que conforman nuestro cuerpo y le permiten el movimiento; <b>tejido muscular liso</b>, el cual encontramos en las venas, arterias y capilares, en todo el tubo digestivo, en las vías urinarias, músculos pupilares y el músculo erector de la piel. Por último, tenemos el <b>tejido muscular cardíaco</b>, el cual solamente se encuentra en el corazón y hace parte de las paredes del mismo',
+          'Células con función contráctil, llamadas también fibras musculares, las cuales disponen en su citoplasma las proteínas contráctiles, <b>miosina</b> y <b>actina</b>. Estas proteínas permiten crear movilidad en sus estructuras anatómicas grandes y pequeñas (flexionar una pierna o contraer un vaso sanguíneo). Estas células contráctiles se pueden clasificar en tres tipos: <b>tejido muscular estriado (también llamado esquelético)</b>, que componen todos y cada uno de los músculos que conforman nuestro cuerpo y le permiten el movimiento; <b>tejido muscular liso</b>, el cual encontramos en las venas, arterias y capilares, en todo el tubo digestivo, en las vías urinarias, músculos pupilares y el músculo erector de la piel. Por último, tenemos el <b>tejido muscular cardíaco</b>, el cual solamente se encuentra en el corazón y hace parte de las paredes del mismo.',
         imagen: require('@/assets/curso/img3.png'),
         leyendaImagen: 'Wikimedia Commons. (s.f.). Músculo liso.',
       },

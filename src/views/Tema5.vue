@@ -12,6 +12,7 @@
     #t_5_1
     .titulo-segundo
       h2 5.1 Reanimación Cardiopulmonar Básica (RCP)
+    p Es importante tener presente que la #[b cadena de supervivencia] es el conjunto de medidas regladas y secuenciales que tenemos que seguir para actuar correctamente a la hora de atender a una persona que ha sufrido una parada cardiorrespiratoria, en el área extrahospitalaria.
     p.mb-5 La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
     figure.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/img10.png', style="max-width: 1000px;").m-auto
