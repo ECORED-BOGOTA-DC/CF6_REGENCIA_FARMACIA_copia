@@ -23,7 +23,6 @@
               img(src="@/assets/curso/img1.png" alt="Mujer farmacéutica en dispensario de fármacos")
             .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
               .contenedor3c.p-4
-                i.fas.fa-quote-left.d-flex.justify-content-center.mb-4.mt-0.mt-lg-5(style="color: #00BCD4; font-size: 40px")
                 p “Cualquier ciudadano que sufra lesiones traumáticas graves, tiene un margen de 60 minutos para sobrevivir”.
                 p.d-flex.justify-content-end #[b Adams Cowley]
     p.mb-5 Es así como los primeros minutos, después de ocurrir un accidente, son los más cruciales. Por ejemplo:
